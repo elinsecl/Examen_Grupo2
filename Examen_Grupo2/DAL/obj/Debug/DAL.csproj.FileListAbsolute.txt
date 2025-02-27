@@ -1,0 +1,9 @@
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\bin\Debug\DAL.dll
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\bin\Debug\DAL.pdb
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\bin\Debug\BLL.dll
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\bin\Debug\BLL.pdb
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\obj\Debug\DAL.dll
+C:\Users\usuario\Desktop\Examen\Examen_Grupo2\DAL\obj\Debug\DAL.pdb
