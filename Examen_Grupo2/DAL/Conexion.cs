@@ -243,5 +243,167 @@ namespace DAL
 
             //Victor
         }
+
+        /// <summary>
+        /// Guardars the cliente.
+        /// </summary>
+        /// <param name="cliente">The cliente.</param>
+        public void GuardarCliente(Clientes cliente)
+        {
+            try
+            {
+                _connection = new SqlConnection(StringConexion);
+                _connection.Open();
+                _command = new SqlCommand("[Sp_Ins_Cliente]", _connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                _command.Parameters.AddWithValue("@NombreCompleto", cliente.NombreCompleto);
+                _command.Parameters.AddWithValue("@FechaNacimiento", cliente.FechaNacimiento);
+                _command.Parameters.AddWithValue("@CorreoElectronico", cliente.CorreoElectronico);
+                _command.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                _command.Parameters.AddWithValue("@Direccion", cliente.Direccion);
+                _command.Parameters.AddWithValue("@FechaRegistro", cliente.FechaRegistro);
+                _command.Parameters.AddWithValue("@EstadoCuenta", cliente.EstadoCuenta);
+                _command.Parameters.AddWithValue("@Foto", cliente.Foto);
+
+                _command.ExecuteNonQuery();
+                _connection.Close();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        /// <summary>
+        /// Modificars the cliente.
+        /// </summary>
+        /// <param name="cliente">The cliente.</param>
+        public void ModificarCliente(Clientes cliente)
+        {
+            try
+            {
+                _connection = new SqlConnection(StringConexion);
+                _connection.Open();
+                _command = new SqlCommand("[Sp_Upd_Cliente]", _connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                _command.Parameters.AddWithValue("@IdCliente", cliente.IdCliente);
+                _command.Parameters.AddWithValue("@NombreCompleto", cliente.NombreCompleto);
+                _command.Parameters.AddWithValue("@FechaNacimiento", cliente.FechaNacimiento);
+                _command.Parameters.AddWithValue("@CorreoElectronico", cliente.CorreoElectronico);
+                _command.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                _command.Parameters.AddWithValue("@Direccion", cliente.Direccion);
+                _command.Parameters.AddWithValue("@EstadoCuenta", cliente.EstadoCuenta);
+                _command.Parameters.AddWithValue("@Foto", cliente.Foto);
+
+                _command.ExecuteNonQuery();
+                _connection.Close();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        /// <summary>
+        /// Eliminars the cliente.
+        /// </summary>
+        /// <param name="idCliente">The identifier cliente.</param>
+        /// <returns></returns>
+        public void EliminarCliente(int idCliente)
+        {
+            try
+            {
+                _connection = new SqlConnection(StringConexion);
+                _connection.Open();
+                _command = new SqlCommand("[Sp_Del_Cliente]", _connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                _command.Parameters.AddWithValue("@IdCliente", idCliente);
+                _command.ExecuteNonQuery();
+                _connection.Close();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        /// <summary>
+        /// Buscars the por nombre cliente.
+        /// </summary>
+        /// <param name="nombre">The nombre.</param>
+        /// <returns></returns>
+        public DataSet BuscarPorNombreCliente(string nombre)
+        {
+            try
+            {
+                _connection = new SqlConnection(StringConexion);
+                _connection.Open();
+                _command = new SqlCommand("[Sp_Buscar_Nombre_Cliente]", _connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                _command.Parameters.AddWithValue("@NombreCompleto", nombre);
+
+                SqlDataAdapter adapter = new SqlDataAdapter { SelectCommand = _command };
+                DataSet datos = new DataSet();
+                adapter.Fill(datos);
+                _connection.Close();
+                return datos;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        /// <summary>
+        /// Buscars the por identifier cliente.
+        /// </summary>
+        /// <param name="idCliente">The identifier cliente.</param>
+        /// <returns></returns>
+        public Clientes BuscarPorIdCliente(int idCliente)
+        {
+            try
+            {
+                _connection = new SqlConnection(StringConexion);
+                _connection.Open();
+                _command = new SqlCommand("[Sp_Buscar_Id_Cliente]", _connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                _command.Parameters.AddWithValue("@IdCliente", idCliente);
+                _reader = _command.ExecuteReader();
+                Clientes temp = null;
+
+                if (_reader.Read())
+                {
+                    temp = new Clientes()
+                    {
+                        IdCliente = Convert.ToInt32(_reader["IdCliente"]),
+                        NombreCompleto = _reader["NombreCompleto"].ToString(),
+                        FechaNacimiento = Convert.ToDateTime(_reader["FechaNacimiento"]),
+                        CorreoElectronico = _reader["CorreoElectronico"].ToString(),
+                        Telefono = _reader["Telefono"].ToString(),
+                        Direccion = _reader["Direccion"].ToString(),
+                        FechaRegistro = Convert.ToDateTime(_reader["FechaRegistro"]),
+                        EstadoCuenta = _reader["EstadoCuenta"].ToString(),
+                        Foto = _reader["Foto"].ToString()
+                    };
+                }
+                _connection.Close();
+                return temp;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
