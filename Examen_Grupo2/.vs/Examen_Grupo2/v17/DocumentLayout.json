@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\",
+  "WorkspaceRootPath": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E55ABDB5-936F-4A59-9B11-F9E262EDF88D}|DAL\\DAL.csproj|c:\\users\\lynx\\desktop\\practica de examen\\practica-1\\practica\\examen_grupo2\\dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E55ABDB5-936F-4A59-9B11-F9E262EDF88D}|DAL\\DAL.csproj|c:\\users\\lynx\\desktop\\sdasd\\examen_grupo2\\examen_grupo2\\dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55ABDB5-936F-4A59-9B11-F9E262EDF88D}|DAL\\DAL.csproj|solutionrelative:dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B504578-1CFA-4FC1-B357-1E11D602CD84}|BLL\\BLL.csproj|C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\bll\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B504578-1CFA-4FC1-B357-1E11D602CD84}|BLL\\BLL.csproj|C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\bll\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B504578-1CFA-4FC1-B357-1E11D602CD84}|BLL\\BLL.csproj|solutionrelative:bll\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B504578-1CFA-4FC1-B357-1E11D602CD84}|BLL\\BLL.csproj|C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\bll\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B504578-1CFA-4FC1-B357-1E11D602CD84}|BLL\\BLL.csproj|C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\bll\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B504578-1CFA-4FC1-B357-1E11D602CD84}|BLL\\BLL.csproj|solutionrelative:bll\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C8F4A2-D409-4E3E-8340-BA922991C292}|Examen_Grupo2\\Examen_Grupo2.csproj|C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\examen_grupo2\\frmgestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15C8F4A2-D409-4E3E-8340-BA922991C292}|Examen_Grupo2\\Examen_Grupo2.csproj|C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\examen_grupo2\\frmgestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15C8F4A2-D409-4E3E-8340-BA922991C292}|Examen_Grupo2\\Examen_Grupo2.csproj|solutionrelative:examen_grupo2\\frmgestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C8F4A2-D409-4E3E-8340-BA922991C292}|Examen_Grupo2\\Examen_Grupo2.csproj|C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\examen_grupo2\\frmgestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{15C8F4A2-D409-4E3E-8340-BA922991C292}|Examen_Grupo2\\Examen_Grupo2.csproj|C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\examen_grupo2\\frmgestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{15C8F4A2-D409-4E3E-8340-BA922991C292}|Examen_Grupo2\\Examen_Grupo2.csproj|solutionrelative:examen_grupo2\\frmgestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Servicios.cs",
-              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\BLL\\Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\BLL\\Servicios.cs",
               "RelativeDocumentMoniker": "BLL\\Servicios.cs",
-              "ToolTip": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\BLL\\Servicios.cs",
+              "ToolTip": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\BLL\\Servicios.cs",
               "RelativeToolTip": "BLL\\Servicios.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\DAL\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\DAL\\Conexion.cs",
               "RelativeDocumentMoniker": "DAL\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\DAL\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\DAL\\Conexion.cs",
               "RelativeToolTip": "DAL\\Conexion.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAAAPcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAAAJIBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T22:17:58.523Z",
               "EditorCaption": ""
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\BLL\\Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\BLL\\Clientes.cs",
               "RelativeDocumentMoniker": "BLL\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\BLL\\Clientes.cs",
+              "ToolTip": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\BLL\\Clientes.cs",
               "RelativeToolTip": "BLL\\Clientes.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FrmGestionServicios.cs",
-              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs",
+              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs",
               "RelativeDocumentMoniker": "Examen_Grupo2\\FrmGestionServicios.cs",
-              "ToolTip": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs",
+              "ToolTip": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs",
               "RelativeToolTip": "Examen_Grupo2\\FrmGestionServicios.cs",
               "ViewState": "AgIAADABAAAAAAAAAAAIwFcBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,10 +93,10 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FrmGestionServicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\Practica de Examen\\Practica-1\\Practica\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs",
+              "DocumentMoniker": "C:\\Users\\Lynx\\Desktop\\SDASD\\Examen_Grupo2\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs",
               "RelativeDocumentMoniker": "Examen_Grupo2\\FrmGestionServicios.cs",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Examen\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\usuario\\Desktop\\Examen\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\usuario\\Desktop\\Examen\\Examen_Grupo2\\Examen_Grupo2\\FrmGestionServicios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T23:52:21.949Z"
             }
